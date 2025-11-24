@@ -11,7 +11,7 @@ import { SidebarProvider, Sidebar, SidebarTrigger, SidebarContent, SidebarInset 
 import { PoemHistory } from '@/components/poem-history';
 import { Logo } from '@/components/logo';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 
 type PoemFormData = {
