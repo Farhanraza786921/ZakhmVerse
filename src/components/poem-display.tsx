@@ -39,11 +39,12 @@ export function PoemDisplay({ prompt, poem }: PoemDisplayProps) {
         await navigator.share(shareData);
       } catch (error) {
         console.log('Error sharing:', error);
+        // If sharing fails, fall back to copying
+        handleCopy();
       }
     } else {
       // Fallback for browsers that don't support Web Share API
       handleCopy();
-      toast({ title: 'Poem copied! You can now share it.' });
     }
   };
 
