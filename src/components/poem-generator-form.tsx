@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useForm } from 'react-hook-form';
@@ -33,7 +32,7 @@ const moods = ['Happy', 'Sad', 'Reflective', 'Romantic', 'Mysterious', 'Humorous
 const styles = ['Sonnet', 'Haiku', 'Free Verse', 'Limerick', 'Ode', 'Ballad'];
 const lengths = ['Short', 'Medium', 'Long'];
 const rhymeSchemes = ['AABB', 'ABAB', 'Free Verse'];
-const languages = ['Formal', 'Informal', 'Simple', 'Poetic'];
+const languages = ['Formal', 'Informal', 'Simple', 'Poetic', 'Hinglish', 'Urdu'];
 
 export function PoemGeneratorForm({ onSubmit, isLoading }: PoemGeneratorFormProps) {
   const form = useForm<FormValues>({
