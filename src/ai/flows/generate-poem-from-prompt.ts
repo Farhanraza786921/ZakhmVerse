@@ -39,6 +39,8 @@ const prompt = ai.definePrompt({
   output: {schema: GeneratePoemOutputSchema},
   prompt: `You are a skilled poet. Generate a poem based on the following prompt and constraints.
 
+If the language is 'urdu' or 'hinglish', you must write the poem using the Latin alphabet (Roman script), not the native script.
+
 Prompt: {{{prompt}}}
 
 {{#if mood}}Mood: {{{mood}}}{{/if}}
