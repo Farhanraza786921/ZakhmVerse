@@ -108,7 +108,7 @@ export default function Home() {
           </main>
            <footer className="p-4 text-center text-sm text-muted-foreground">
               <Separator className="mb-4" />
-              <p>Powered by AI & Imagination</p>
+              <p>Made By Heart</p>
            </footer>
         </div>
       </SidebarInset>
